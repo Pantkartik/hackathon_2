@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="logo.png" alt="Logo" class="logo">
+            <button class="login-btn">Login</button>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <!-- <h1>Welcome to Our Website</h1>
+            <p>Your journey starts here.</p> -->
+        </div>
+    </div>
+    <div class="login-container popup-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+    </div>
+    <div class="signin-container popup-container">
+        <h2>Sign In</h2>
+        <form id="signin-form">
+            <div class="form-group">
+                <label for="signin-username">Username</label>
+                <input type="text" id="signin-username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="signin-password">Password</label>
+                <input type="password" id="signin-password" name="password" required>
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+    </div>
+    <div class="info-section">
+        <h2>About Our Team</h2>
+        <p>We are a dedicated team of professionals committed to delivering the best services to our clients.</p>
+    </div>
+    <div class="info-section">
+        <h2>Overview</h2>
+        <p>Our company provides innovative solutions to help businesses grow and succeed in the competitive market.</p>
+    </div>
+    <div class="info-section">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to us for any inquiries or support. We are here to help!</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
